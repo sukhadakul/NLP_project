@@ -9,7 +9,7 @@ import streamlit as st
 #import spacy
 #from bs4 import BeautifulSoup
 import re
-import nltk
+#import nltk
 import string
 from sklearn.feature_extraction.text import TfidfVectorizer 
 
