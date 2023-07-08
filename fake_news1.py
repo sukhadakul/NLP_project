@@ -6,12 +6,12 @@
 
 import pickle
 import streamlit as st
-#import spacy
-#from bs4 import BeautifulSoup
+import spacy
+from bs4 import BeautifulSoup
 import re
-#import nltk
+import nltk
 import string
-#from sklearn.feature_extraction.text import TfidfVectorizer 
+from sklearn.feature_extraction.text import TfidfVectorizer 
 
 
 # In[2]:
@@ -27,11 +27,11 @@ def lemmatize_words(text):
 # In[3]:
 
 
-#def remove_html(text):
-#    soup = BeautifulSoup(text, "html.parser")
-#    return soup.get_text()
-#def remove_punctuations(text):
-#    return re.sub('\[[^]]*\]', '', text)
+def remove_html(text):
+    soup = BeautifulSoup(text, "html.parser")
+    return soup.get_text()
+def remove_punctuations(text):
+    return re.sub('\[[^]]*\]', '', text)
 def remove_characters(text):
     return re.sub("[^a-zA-Z]"," ",text) 
 
