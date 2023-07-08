@@ -6,8 +6,8 @@
 
 import pickle
 import streamlit as st
-import spacy
-from bs4 import BeautifulSoup
+#import spacy
+#from bs4 import BeautifulSoup
 import re
 import nltk
 import string
