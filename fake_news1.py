@@ -3,7 +3,6 @@
 
 # In[1]:
 
-import import_ipynb
 import pickle
 import streamlit as st
 import spacy
